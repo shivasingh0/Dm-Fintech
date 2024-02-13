@@ -2828,8 +2828,8 @@ ol {
 
 .swiper-nav--style2 .swiper-nav__btn.active,
 .swiper-nav--style2 .swiper-nav__btn:hover {
-  background-color: var(--secondary-color);
-  border-color: var(--secondary-color);
+  background-color: #00D094;
+  border-color: #00D094;
 }
 
 .swiper-nav--style2 .swiper-nav__btn.active i,
@@ -11028,7 +11028,7 @@ textarea:focus-within {
 }
 
 .testimonial__item--style2 .testimonial__item-inner:hover {
-  border: 2px solid var(--secondary-color);
+  border: 2px solid #00D094;
 }
 
 .testimonial__item--style3 .testimonial__item-inner {
@@ -13849,65 +13849,63 @@ html[data-bs-theme="dark"] .partner--gradient::after {
 }
 
 .custom-shape-divider-top-1707806985 .shape-fill {
-  fill: #fff;
+  fill: #F1F5FA;
 }.colored-image {
   width: 50px;
   margin-bottom: 10px;
 }
 
 /* fact section */
-.row {
-  display: flex;
-  margin-right: -15px;
-  margin-left: -15px;
+.join-us-img {
+  max-width: 100%;
+  margin-top: -120px;
 }
 
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+.joinUs-right {
+  margin-top: -100px;
 }
-.single-funfacts{
-  border-bottom: 1px solid #eaecf0;
-   padding-bottom: 30px;
-   text-align: center;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    padding-top: 100px;
+
+.join-list {
+  list-style: none;
 }
-.single-funfacts img {
-  position: absolute;
-  left: 0;
-  right: 0;
-  opacity: .80;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: -1;
-  margin-left: auto;
-  margin-right: auto;
-}
-.elementor img {
-  height: auto;
-  max-width: 100%;
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-}
-.single-funfacts h3 .odometer {
+
+.ourgrowthImg {
   position: relative;
-  top: -2px;
+  border-style: solid;
+  border-color: #00D094;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* border-radius: 50%; */
+  justify-content: center;
+  margin: 0px auto;
+  background: #fff;
+  transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, -webkit-border-radius .3s, -webkit-box-shadow .3s;
 }
-.odometer.odometer-auto-theme {
-  display: inline-block;
-  vertical-align: middle;
+
+.ourgrowthImg:hover {
+  border-color: #ffffff !important;
 }
-.odometer-value{
-  color: var(--brand-color);
+.ourgrowthImg::before {
+  content: "";
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  border-radius: 50%;
+  transition: all ease .3s;
+  pointer-events: none;
 }
-.odometer-digit-spacer{
-  color: var(--brand-color);
+
+.ourgrowthImg:hover::before {
+  border: 5px dashed #00D094;
+  animation-name: round_ap;
+  animation-timing-function: cubic-bezier(0.81, 1.84, 0.2, -0.52);
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
+
