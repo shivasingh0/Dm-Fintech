@@ -4573,7 +4573,7 @@ h6 a {
   }
 
   .menu li a:hover {
-    background: rgba(var(--wh-color), 0.6);
+    color: var(--brand-color);
   }
 
   .menu li a span {
@@ -13908,4 +13908,10 @@ html[data-bs-theme="dark"] .partner--gradient::after {
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
-
+.fact-img{
+  width: 50px;
+}
+.fact-img1{
+  width: 90px;
+  height: 70px;
+}
