@@ -4279,7 +4279,9 @@ h6 a {
 .header-section {
   width: 100%;
   z-index: 99;
+  height: 100px;
 }
+
 
 .header-section.header-fixed {
   -webkit-animation: fadeInDown 0.5s;
@@ -4311,6 +4313,7 @@ h6 a {
 
 .header-section--style2.header-fixed {
   background-color: var(--wh-color);
+  
 }
 
 .header-section--style3 {
