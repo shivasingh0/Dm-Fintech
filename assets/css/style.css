@@ -14199,6 +14199,31 @@ html[data-bs-theme="dark"] .partner--gradient::after {
   }
 
 
+  /* mask images */
+  .mask1{
+    -webkit-mask-image: url(../../assets/images/mask-imgs/image-removebg-preview.png);
+    mask-image: url(../../assets/images/mask-imgs/image-removebg-preview.png);
+    -webkit-mask-size: 70%;
+  mask-size: 70%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  }
+  .mask2{
+    -webkit-mask-image: url(../../assets/images/mask-imgs/image-removebg-preview\ \(1\).png);
+    mask-image: url(../../assets/images/mask-imgs/image-removebg-preview\ \(1\).png);
+    -webkit-mask-size: 60%;
+  mask-size: 60%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  }
+  .mask3{
+    -webkit-mask-image: url(../../assets/images/mask-imgs/image-removebg-preview\ \(2\).png);
+    mask-image: url(../../assets/images/mask-imgs/image-removebg-preview\ \(2\).png);
+    -webkit-mask-size: 90%;
+  mask-size: 90%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  }
 
 
  
