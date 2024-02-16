@@ -14100,6 +14100,7 @@ html[data-bs-theme="dark"] .partner--gradient::after {
   }
   .about-card p:hover{
     color: white;
+    
    }
   .about-card:hover {
     border: 1px solid #00D094 ;
@@ -14125,7 +14126,7 @@ html[data-bs-theme="dark"] .partner--gradient::after {
   .about-info {
     background-color: #F1F5FA;
     width: 100%;
-    height: 350px;
+    height: 300px;
   }
   .about-content{
     gap: 10px;
@@ -14133,7 +14134,7 @@ html[data-bs-theme="dark"] .partner--gradient::after {
     color:  #00D094;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 19px;
   }
   .about-title{
@@ -14161,12 +14162,14 @@ html[data-bs-theme="dark"] .partner--gradient::after {
     transition: all 0.5s ease-in-out;   
     margin-top: 50px;
     gap: 10px;
+    margin-top: 5px;
   }
   
   .btn-txt {
     z-index: 1;
-    font-weight: 800;
+    font-weight: 450;
     letter-spacing: 2px;
+    font-family: inherit;
   }
 .type1:hover{
   color: #000;
@@ -14224,7 +14227,7 @@ html[data-bs-theme="dark"] .partner--gradient::after {
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   }
-
+  
 
  
  
