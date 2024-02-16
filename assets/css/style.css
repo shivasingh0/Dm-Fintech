@@ -14228,6 +14228,45 @@ html[data-bs-theme="dark"] .partner--gradient::after {
   mask-repeat: no-repeat;
   }
   
+  /* Styling for the tab navigation */
+.nav-pills {
+  display: flex; /* Display tabs in a row */
+  justify-content: center; /* Center-align tabs */
+  margin-bottom: 20px; /* Bottom margin */
+}
 
- 
- 
+.nav-pills .nav-item {
+  margin-bottom: 0; /* Remove default bottom margin */
+}
+
+.nav-pills .nav-link {
+  color: #333; /* Text color */
+  background-color: #f8f9fa; /* Background color */
+  border: none; /* Remove borders */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  margin: 0 5px; /* Margin between tabs */
+}
+
+/* Active tab styling */
+.nav-pills .nav-link.active {
+  color: #fff; /* Text color */
+    background-color:#00D094 !important;
+
+}
+/* Styling for the tab content */
+.tab-content {
+  border: 1px solid #dee2e6; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Padding */
+}
+/* .nav-link.active
+{
+  background-color: #00D094 !important;
+} */
+
+.courses-details-desc .tab-content {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+}
